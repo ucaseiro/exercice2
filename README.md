@@ -1,3 +1,4 @@
-# exercice2
+# variable_font_exercice1
 
-url site web:
+url de mon site :
+(https://ucaseiro.github.io/battle_font_exercice1/)

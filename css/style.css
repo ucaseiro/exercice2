@@ -1,0 +1,193 @@
+
+.movement{
+  font-family: 'MovementV';
+  color: blueviolet;
+  font-variation-settings: "SPAC" 110, "wght" 500;
+}
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+  font-variation-settings: "SCAN" 50, "BLED" 50;
+}
+
+h2{
+  font-family: sixtyhour;
+  font-size: 200px;
+  color:blue;
+}
+
+.tchoutchou{
+  left: -200px;
+  font-family: sixtyhour;
+  font-size: 30px;
+  position: relative;
+  font-variation-settings:"SCAN" -30, "BLED" 10 ;
+  
+}
+
+#un{
+  animation-name: un; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 10s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes un {
+  0%{
+    left: -200px;
+
+  }
+
+ 
+  100%{
+    left: 1080px;
+
+  }
+  
+ }
+
+ #deux{
+  animation-name: deux; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 10s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 1s;/*faire démarer une animation un peu en retard*/
+
+}
+
+@keyframes deux {
+  0%{
+    left: -200px;
+
+  }
+
+ 
+  100%{
+    left: 1080px;
+
+  }
+  
+ }
+
+ #trois{
+  animation-name: trois; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 10s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 2s;/*faire démarer une animation un peu en retard*/
+
+}
+
+@keyframes trois {
+  0%{
+    left: -200px;
+
+  }
+
+ 
+  100%{
+    left: 1080px;
+
+  }
+  
+ }
+
+#premier{
+  position: relative;
+  top: 50px;
+ transform: rotate(-10deg);
+ z-index: -1;
+ animation-name: sixtyhour; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+ 
+}
+
+#deuxieme{
+  position: relative;
+  opacity: 0.7;
+  mix-blend-mode: multiply;
+  position: relative;
+  left: 250px;
+  animation-name: movement; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+ 
+}
+
+
+ @keyframes sixtyhour {
+  0%{
+    color: rgb(255, 206, 206);
+    font-variation-settings:"SCAN" -30, "BLED" 10 ;
+    top: -200px;
+
+  }
+
+ 
+  100%{
+    color: brown;
+    font-variation-settings:"SCAN" 100, "BLED" 100 ;
+    top: 50px
+
+  }
+  
+ }
+
+ @keyframes movement {
+  0%{
+    font-variation-settings:"SPAC" 100, "wght" 100 ;
+
+
+  }
+
+  30%{
+    font-variation-settings:"SPAC" 100, "wght" 100 ;
+
+
+  }
+
+
+ 
+  100%{
+    font-variation-settings:"SPAC" 120, "wght" 900 ;
+    rotate: 20deg;
+ 
+
+  }
+  
+ }
+
+ h3{
+  position: relative;
+  right: -90vw;
+  bottom: -15vh;
+  font-family: MovementV;
+  transition-duration: 2s;
+  color: black;
+  font-variation-settings:"SPAC" 100, "wght" 100 ;
+ }
+
+ h3:hover{
+  color: aqua;
+  font-variation-settings:"SPAC" 120, "wght" 900 ;
+ 
+ 
+ }
+  
+
+  
+  
+  
